@@ -1,5 +1,5 @@
 // エラーのあるフィールドの枠線を赤く表示する
-.field_width_errors > * {
+.field_with_errors > * {
     border-color: red !important;
 }
 // エラーの説明が出るところ
@@ -18,7 +18,7 @@
         background-color: #c00;
         color: #fff;
     }
-    
+
     ul li {
         font-size: 12px;
         list-style: square;
